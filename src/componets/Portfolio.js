@@ -46,7 +46,7 @@ const Portfolio = () => {
     },
   ]
   return (
-    <section name="portfolio" className=" bg-gray-100 w-full md:h-screen py-5">
+    <section name="portfolio" className=" bg-gray-100 w-full md:h-screen ">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className=" pb-7">
           <p className=" text-4xl font-bold inline border-b-4 border-blue-500">
@@ -68,7 +68,7 @@ const Portfolio = () => {
                 />
                 <div className="flex items-center justify-center text-blue-800 font-bold">
                   <a
-                    className=" w-1/2 px-4  m-2 duration-200 hover:scale-105"
+                    className=" w-1/2 px-4   duration-200 hover:scale-105"
                     href={git}
                     target="_blank"
                     rel="noreferrer"
@@ -76,7 +76,7 @@ const Portfolio = () => {
                     Code
                   </a>
                   <a
-                    className=" w-1/2 px-4  m-2 duration-200 hover:scale-105"
+                    className=" w-1/2 px-4   duration-200 hover:scale-105"
                     href={demo}
                     target="_blank"
                     rel="noreferrer"
