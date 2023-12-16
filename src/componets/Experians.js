@@ -47,7 +47,7 @@ const Experians = () => {
   ]
 
   return (
-    <section name="experians" className=" w-full h-screen">
+    <section name="experiance" className=" w-full h-screen">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full ">
         <div>
           <p className="text-4xl font-bold border-b-4 border-blue-800 p-2 inline">
